@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-	  <title>Halo Pacar Kesayangan</title>
+	  <title>SIMP</title>
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -352,12 +352,12 @@
 		</div>
 		<div class="bg ubuntu"></div>
 		<div class="bg dawn"></div>
-		<div class="bg pagi"></div>
-		<div class="bg siang"></div>
-		<div class="bg sore"></div>
+		<div class="bg morning"></div>
+		<div class="bg noon"></div>
+		<div class="bg afternoon"></div>
 		<div class="bg sunset"></div>
-		<div class="bg sore"></div>
-		<div class="bg malam"></div>
+		<div class="bg evening"></div>
+		<div class="bg midnight"></div>
 		<div class="bg red"></div>
 		<div class="bg green"></div>
 		<div class="bg blue"></div>
@@ -848,7 +848,7 @@
 				console.log('debug');
 			}
 
-			var txt = 'Halo Ayu sayang';
+			var txt = 'Halo simp ku sayang';
 			var txt2 = 'txt';
 
 			function checkTime(i) {
@@ -872,43 +872,43 @@
 				S=s;
 
 				if (H<5){
-					txt='Tidur yang Nyenyak:)';
+					txt='Have a Good Night:)';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<9){
-					txt='Selamat Pagi Ayu Devani:)';
+					txt='Good Morning You:)';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<12){
-					txt='Jangan Lupa Bhagia ya:)';
+					txt='Be Happy Today:)';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<16){
-					txt='Selamat Malam Sayangku:)';
+					txt='Good Afternoon Dear:)';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<19){
-					txt='Selamat Malam Sayang, Istirahat ya:)';
+					txt='Good Afternoon, Take a Rest:)';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<23){
-					txt='Selamat Malam Sayang:)';
+					txt='Good Evening Sweetie:)';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<=24){
-					txt='Waktunya Tidur, Selamat Malam:)';
+					txt='Time to Sleep, Good Night:)';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
@@ -917,25 +917,25 @@
 
 				if (auto && m==0 && s==0){
 					if ((h>23) || (h<4)){
-						malam();
+						midnight();
 					}
 					else if(h<6){
-						pagi();
+						dawn();
 					}
 					else if(h<9){
-						pagi();
+						morning();
 					}
 					else if(h<17){
-						siang();
+						noon();
 					}
 					else if(h<18){
-						sore();
+						afternoon();
 					}
 					else if(h<19){
-						sore();
+						sunset();
 					}
 					else if(h<23){
-						malam();
+						evening();
 					}
 				}
 
@@ -950,79 +950,79 @@
 			startTime();
 			function init_auto(){
 				if ((H>23) || (H<4)){
-					malam();
+					midnight();
 				}
 				else if(H<6){
-					pagi();
+					dawn();
 				}
 				else if(H<9){
-					pagi();
+					morning();
 				}
 				else if(H<17){
-					siang();
+					noon();
 				}
 				else if(H<18){
-					siang();
+					afternoon();
 				}
 				else if(H<19){
-					sore();
+					sunset();
 				}
 				else if(H<23){
-					sore();
+					evening();
 				}
 				else{
-					malam();
+					midnight();
 				}
 			}
 
 			const quotes = [
 			  {
 			    "quote": "Bila kau tak tahan lelahnya belajar, maka kau harus tahan menanggung perihnya kebodohan",
-			    "source": "Williyanto Adi"
+			    "source": "Imam Syafi'i"
 			  },
 			  {
 			    "quote": "Just because I carry it all so well doesn't mean it's not heavy",
-			    "source": "Williyanto Adi"
+			    "source": "Andika Sujanadi"
 			  },
 			  {
 			    "quote": "Semesta memiliki alurnya masing-masing",
-			    "source": "Williyanto Adi"
+			    "source": "Andika Sujanadi"
 			  },
 			  {
 			    "quote": "You don't lose, You learn",
-			    "source": "Williyanto Adi"
+			    "source": "Andika Sujanadi"
 			  },
 			  {
 			    "quote": "I own my own life and my own decission",
-			    "source": "Williyanto Adi"
+			    "source": "Andika Sujanadi"
 			  },
 			  {
 			    "quote": "Every failure, rejection, betrayal should be the reason for you to come back stronger in life by working on goals and achiving them",
-			    "source": "Williyanto Adi"
+			    "source": "Andika Sujanadi"
 			  },
 			  {
 			    "quote": "Masa lalu dan frustasi merupakan fondasi dasar untuk menciptakan kembali kehidupan baru yang lebih baik",
-			    "source": "Williyanto Adi"
+			    "source": "Anthony Robbins"
 			  },
 			  {
 			    "quote": "Ada kalimat yang ingin aku dapatkan dari dia tapi aku dapat dari orang lain",
-			    "source": "Williyanto Adi"
+			    "source": "Andika Sujanadi"
 			  },
 			  {
 			    "quote": "People doesn't want to end their life, they just wanted to end the pain",
-			    "source": "Williyanto Adi"
+			    "source": "Andika Sujanadi"
 			  },
 			  {
 			    "quote": "Need someone to talk about life, but sitting alone is much better",
-			    "source": "Williyanto Adi"
+			    "source": "Andika Sujanadi"
 			  },
 			  {
 			    "quote": "Seorang bahagia bukan karena semua benar dalam hidupnya, tapi sikap terhadap hidupnya yang benar",
-			    "source": "Williyanto Adi"
+			    "source": "Sundar Pichai"
 			  },
 			  {
 			    "quote": "Jika hari ini harus lebih baik darpada hari kemarin dan hari esok lebih baik daripada hari ini maka kelahiranmu adalah hari terburuk yang pernah ada",
-			    "source": "Williyanto Adi"
+			    "source": "Om Hell"
 			  },
 			]
 			setInterval(randomQuote, 60000);
